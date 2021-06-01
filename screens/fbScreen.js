@@ -5,7 +5,7 @@ export default class fbScreen extends React.Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text> Facebook </Text>
+        <Text style = {styles.textFb}> Facebook </Text>
       </View>
     )
   }
@@ -17,5 +17,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+   textFb:{
+    color: 'red',
+    fontSize: 20,
   },
 });

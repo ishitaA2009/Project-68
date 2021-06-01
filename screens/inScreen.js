@@ -5,7 +5,7 @@ export default class inScreen extends React.Component {
   render(){
     return (
       <View style={styles.container}>
-        <Text> Instagram </Text>
+        <Text style = {styles.textIn}> Instagram </Text>
       </View>
     )
   }
@@ -17,5 +17,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  textIn:{
+    color: 'red',
+    fontSize: 20,
   },
 });
